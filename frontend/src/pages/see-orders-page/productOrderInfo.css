@@ -1,0 +1,52 @@
+.see-your-orders-card {
+  background: var(--blackGradient);
+  box-shadow: var(--boxShadow);
+  display: flex;
+  gap: 3rem;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+  color: var(--mainFontColor);
+}
+
+.see-your-orders-card-info > div:last-child  {
+  position: relative;
+}
+
+.see-your-orders-card-info > div:last-child > button {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+}
+
+.see-your-orders-card-info > div:last-child > p {
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.see-your-orders-card img {
+  width: 9rem;
+  height: 9rem; 
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.see-your-orders-card .see-your-orders-card-info {
+  display: flex;
+  flex-direction: column; 
+  text-align: left;
+  width: 100%;
+}
+
+.see-your-orders-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins-ExtraBold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+

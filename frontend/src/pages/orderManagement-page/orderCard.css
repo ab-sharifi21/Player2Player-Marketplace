@@ -1,0 +1,70 @@
+.managed-order-article {
+    background: var(--blackGradient);
+    box-shadow: var(--boxShadow);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    padding:1rem 1.3rem;
+    text-align: left;
+}
+
+.managed-order-article > img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.managed-order-article > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 100%;
+}
+
+.manged-product-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manged-product-name {
+    font-family: 'Poppins-ExtraBold', sans-serif;
+    font-weight: 800;
+}
+
+.managed-order-article > div > p {
+    font-size: 0.9rem;
+}
+
+.managed-order-buyer {
+    position: relative;
+}
+
+.managed-order-buyer > a > div {
+    align-items: start;
+}
+
+.managed-order-buyer >.MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+    position: absolute;
+    top: 1.5rem;
+    left: 4.5rem;
+}
+
+.managed-order-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.managed-order-time > p {
+    color: var(--subtitleColor);
+    font-size: 0.6rem;
+}
+
+.managed-order-time > div {
+    display: flex;
+    gap: 1rem;
+}

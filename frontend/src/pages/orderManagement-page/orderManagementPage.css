@@ -1,0 +1,27 @@
+
+.managed-order-sections {
+  background: var(--secondryBackgroundColor);
+  box-shadow: var(--boxShadow);
+  width: 80%;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.managed-order-sections > h2 {
+  width: 100%;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.managed-order-sections > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.managed-order-sections > ul > li {
+  width: 100%;
+}

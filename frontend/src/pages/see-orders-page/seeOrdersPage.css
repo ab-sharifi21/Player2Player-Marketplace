@@ -1,0 +1,15 @@
+.your-orders-section {
+  background-color: var(--secondryBackgroundColor);
+  box-shadow: var(--boxShadow);
+  border-radius: 1.5rem;
+  margin: 1rem 0;
+  width: 90%;
+  padding: 1rem 1.5rem;
+  }
+
+.your-orders-section > h2{
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}

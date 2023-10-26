@@ -1,0 +1,65 @@
+form.edit-user-form {
+  background-color: var(--secondryBackgroundColor);
+  box-shadow: var(--boxShadow);
+  border-radius: 1.5rem;
+  width: 70vw;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+form.edit-user-form > h1 {
+  width: 100%;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.edit-input-group {
+  width: 100%;
+  display: flex;
+  padding: 0rem 0.9rem;
+  gap: 3rem;
+}
+
+.edit-input-group > label > input {
+  width: 24.4rem;
+}
+
+.edit-avatar-input {
+  width: 100%;
+  text-align: left;
+  padding: 0rem 0.9rem;
+}
+
+.edit-addAvatar {
+  border: none;
+  outline: none;
+  background: var(--blackGradient);
+  color: var(--mainFontColor);
+  box-shadow: var(--boxShadow);
+  padding: 1rem;
+  border-radius: 2.5rem;
+  width: 24.4rem;
+}
+
+.edit-addAvatar:hover {
+  box-shadow: var(--inputHoverBoxShadow);
+}
+
+.edit-addAvatar:focus {
+  color: var(--inputFocus);
+}
+
+.edit-buttons-container {
+  width: 100%;
+  padding: 0rem 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
